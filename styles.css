@@ -1,12 +1,21 @@
 
-
+body{
+    margin: 0;
+}
 .body{
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
-    justify-content: center;
-    /* align-items: center;     */
-    margin: 0;
+    font-family: 'Roboto';   
+   
+}
+
+
+
+.background_blue{
+    background-color: #d83838;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 ul{
@@ -20,11 +29,29 @@ ul{
     
 }
 
+.size_center{
+    width: 900px;
+    align-items: center;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+.footer{
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #E5E7EB;
     font-size: 18px;
     padding: 20px;
@@ -48,19 +75,20 @@ ul{
     color: #f9faf8;
     font-size: 18px;
     font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .part_one{
-    background-color: #1F2937;
     display: flex;
     height: 400px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .block_one{
     width: 400px;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .part_two{
@@ -86,12 +114,12 @@ ul{
 
 .capsule_sign{
     border-radius: 10px;
-    background-color: #3882f6;
-    width: 1000px;
+    background-color: #d83838; 
+    width: 900px;
     height: 120px;
     margin: 50px;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -99,7 +127,7 @@ ul{
     display: flex;
     align-items: end;
     flex-direction: column;
-    width: 700px;
+    width: 650px;
     margin-top:80px ;
     margin-bottom:80px ;
 }
@@ -112,7 +140,7 @@ ul{
 }
 
 button{
-    background-color: #3882f6;
+    background-color: ##f08282;
     border-radius: 5px;
     padding: 7px;
     padding-left: 35px;
@@ -122,7 +150,7 @@ button{
     margin-top:10px ;
 }
 .button_bottom{
-    background-color: #3882f6;
+    background-color: #f08282;
     border-radius: 5px;
     padding: 7px;
     padding-left: 35px;
@@ -131,31 +159,41 @@ button{
     border-style: solid;
     margin-top:10px ;
     border-color: #f9faf8;
+    margin: 20px;
+}
+
+.capsule_sign_content{
+    display: flex;
+    flex-direction: column;
 }
 
 .container_capsule{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 30px;
 }
 
 .capsule{
-    width: 180px;
+    width: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
+    padding: 20px;
+    margin-top: 20px;
    
     
 }
 
 .capsule_text{
     text-align: center;
+    
 }
 
 img{
     border-radius: 10px;
+    /* margin: 10px; */
 }
 
 .information_text{
@@ -163,3 +201,4 @@ img{
     font-weight: bolder;
     color: #1F2937;
 }
+
