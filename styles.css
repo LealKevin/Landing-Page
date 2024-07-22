@@ -1,10 +1,11 @@
 
 
-body{
+.body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
-
+    justify-content: center;
+    /* align-items: center;     */
     margin: 0;
 }
 
@@ -69,8 +70,45 @@ ul{
     justify-content: center;
     flex-direction: column;
 }
-.links{
+.part_three{
+    background-color: #E5E7EB;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    height: 400px;
+    
+}
 
+.part_four{
+    display: flex;
+    justify-content: center;
+}
+
+.capsule_sign{
+    border-radius: 10px;
+    background-color: #3882f6;
+    width: 1000px;
+    height: 120px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_capsule{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 700px;
+    margin-top:80px ;
+    margin-bottom:80px ;
+}
+
+.quote_text{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    
 }
 
 button{
@@ -82,6 +120,17 @@ button{
     color: #E5E7EB;
     border-style: none;
     margin-top:10px ;
+}
+.button_bottom{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #E5E7EB;
+    border-style: solid;
+    margin-top:10px ;
+    border-color: #f9faf8;
 }
 
 .container_capsule{
