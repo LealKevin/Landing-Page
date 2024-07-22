@@ -33,18 +33,20 @@ ul{
     color: #f9faf8;
     font-size: 24px;
     flex: 1;
+    font-weight: bold;
     
 }
 
 .title{
     color: #f9faf8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
 }
 
 .secondary_text{
-    color: #E5E7EB;
+    color: #f9faf8;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .part_one{
@@ -64,3 +66,14 @@ ul{
 
 }
 
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #E5E7EB;
+    border-style: none;
+    margin-top:10px ;
+
+}
